@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <!--GoogleFonts--->
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Merriweather+Sans:wght@700&family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Boostrap4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/iconoss.css">
+    <title>Inicio</title>
+  </head>
+  <body>
+      <header class="" id="header">
+        <nav class="menu">
+        <div class="logo">
+          <a href=""><img src="img/logo.jpeg" alt="logo"></a>
+          <a href="#" class="btn-menu" id="btn-menu"><i class="icono fa fa-bars" aria-hidden="true"></i></a>
+        </div>
+        <div class="enlaces" id="enlaces">
+          <a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+          <a href="donar.html"><i class="fas fa-people-carry" aria-hidden="true"></i> Donar</a>
+          <a href="#"><i class="fas fa-hands-helping" aria-hidden="true"></i> Solicitar Donación</a>
+          <a href="#"><i class="fas fa-warehouse" aria-hidden="true"></i> Depósito</a>
+        </div>
+      </nav>
+      </header>
+      <div class="banner">
+        <div class="slider" style="margin-top: 100px;">
+            <ul>
+                <li><img src="img/img1.jpg" alt=""></li>
+                <li><img src="img/img2.jpg" alt=""></li>
+                <li><img src="img/img3.jpg" alt=""></li>
+                <li><img src="img/img3.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="contenedor">
+            <h1 class="banner__titulo">Título</h1>
+            <p class="banner__parrafo">Esto es una descripción</p>
+        </div>
+      </div>
+      <div class="ctn-txt">
+          <div class="title">
+            <span>Bienvenido a</span>
+            <h2>Fundación Oniglod</h2>
+          </div>
+          <div class="parrafo">
+            <p>Desde el año 2001 Fundación Equidad trabaja con personas de sectores sociales
+              vulnerables, promoviendo su integración social, educativa y laboral, a través del
+              uso de nuevas tecnologías y la formación digital.</p>
+          </div>
+          <div class="container">
+            <button type="button" class="btn btn3">Ver más</button>
+          </div>
+      </div>
+      <div class="ctn-img">
+        <div class="ctn-cont">
+          <a href="#">¿Te gustaría hacer algo extraordinario hoy?</a>
+          <p>Hazte socio y ayuda a cambiar la vida de millones de niños en todo el mundo</p>
+          <div class="container">
+            <button type="button" class="btn btn4">¡Hazte Socio!</button>
+          </div>
+        </div>
+        <img src="img/img1.jpg" alt="">
+      </div>
+      <footer class="bg-dark py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="accordion d-lg-flex w-100" id="accordion">
+
+                  <div class="col-lg-4 col-md-12">
+                    <a href="#uno" class="h4 text-white nav-link p-0 d-block d-lg-none d-xl-none" data-toggle="collapse">Contáctenos</a>
+                    <div class="text-white h4 d-none d-lg-block d-xl-block">
+                      Contáctenos
+                    </div>
+                    <div class="collapse text-white d-lg-flex" id="uno" data-parent="#accordion">
+                      <ul class="list-unstyled d-flex w-100 pt-4 pr-4 justify-content-between">
+                        <li>
+                          <div class="middle">
+                            <a class="social-btn" href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+                            <div class="texto">
+                              <p>micorreo @gmailcom</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="middle">
+                            <a class="social-btn" href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i></a>
+                            <div class="texto">
+                              <p>Streeth Sydney 2224</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="middle">
+                            <a class="social-btn" href="#" class="nav-link"><i class="fas fa-phone"></i></a>
+                            <div class="texto">
+                              <p>2964-487371</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-12">
+                    <a href="#dos" class="h4 text-white nav-link p-0 d-block d-lg-none d-xl-none" data-toggle="collapse">Sobre nosotros</a>
+                    <div class="text-white h4 d-none d-lg-block d-xl-block">
+                      Sobre nosotros
+                    </div>
+                    <div class="collapse text-white d-lg-flex" id="dos" data-parent="#accordion">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-12">
+                    <a href="#tres" class="h4 text-white nav-link p-0 d-block d-lg-none d-xl-none" data-toggle="collapse">Contáctenos</a>
+                    <div class="text-white h4 d-none d-lg-block d-xl-block">
+                      Te va a interesar
+                    </div>
+                    <div class="collapse text-white d-lg-flex" id="tres" data-parent="#accordion">
+                      <ul class="list-unstyled d-flex w-100 pt-4 justify-content-between">
+                        <li>
+                          <div class="middle">
+                            <a class="social-btn" href="#" class="nav-link"><img src="img/logoaac.jpeg" alt=""  class="aac"></a>
+                            <div class="texto">
+                              <p>Educación</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="middle">
+                            <a class="social-btn" href="#" class="nav-link"><img src="img/logocptv.png" alt="" class="cpt"></a>
+                            <div class="texto">
+                              <p>Entretenimiento</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="container-fluid">
+        <div class="row fondo">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="p-3 text-white">Oniglod &copy Copyright 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

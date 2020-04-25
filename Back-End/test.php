@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--GoogleFonts--->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!--Boostrap4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Estilos Propios-->
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/estilos-formularios.css">
+  <title>Donaciones</title>
+</head>
+<body>
+  <header class="" id="header">
+    <nav class="menu">
+    <div class="logo">
+      <a href=""><img src="../img/logo.jpeg" alt="logo"></a>
+      <a href="#" class="btn-menu" id="btn-menu"><i class="icono fa fa-bars" aria-hidden="true"></i></a>
+    </div>
+    <div class="enlaces" id="enlaces">
+      <a href="Inicio.php"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+      <a href="../donar.html"><i class="fas fa-people-carry" aria-hidden="true"></i> Donar</a>
+      <a href="#"><i class="fas fa-hands-helping" aria-hidden="true"></i> Solicitar Donación</a>
+      <a href="#"><i class="fas fa-warehouse" aria-hidden="true"></i> Depósito</a>
+    </div>
+  </nav>
+  </header>
+
+  <div class="titulo">
+    <h1>Complete el siguiente formulario</h1>
+  </div>
+  <div class="contenedor-formulario">
+    <div class="wrap">
+    <form action="" class="formulario" name="formulario_registro" method="POST">
+      <div>
+        <div class="input-group">
+          <input type="text" id="nombre" name="nombre" required>
+          <label class="label" for="nombre">Nombre</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="apellido" name="apellido" required>
+          <label class="label" for="apellido">Apellido</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="correo" name="correo" required>
+          <label class="label" for="correo">Correo</label>
+        </div>
+        <div class="input-group">
+          <h4>Elige el tipo de donación</h4>
+        </div>
+        <div class="input-group radio">
+          <input type="radio" name="sexo" id="pc" value="Computadora">
+          <label for="pc">Computadora</label>
+          <input type="radio" name="sexo" id="ropa" value="Ropa">
+          <label for="ropa">Ropa</label>
+          <input type="radio" name="sexo" id="alimento" value="Alimento">
+          <label for="alimento">Alimentos no Perecederos</label>
+        </div>
+        <!--
+        <div class="input-group checkbox">
+          <input type="checkbox" name="terminos" id="terminos" value="true">
+          <label for="terminos">Acepto los Términos y Condiciones</label>
+        </div> -->
+
+        <input type="submit" id="btn-submit" value="Enviar">
+      </div>
+    </form>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="../js/headroom.min.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/formulario2.js"></script>
+</body>
+</html>
