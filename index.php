@@ -21,7 +21,7 @@
           <a href="#" class="btn-menu" id="btn-menu"><i class="icono fa fa-bars" aria-hidden="true"></i></a>
         </div>
         <div class="enlaces" id="enlaces">
-          <a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+          <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
           <a href="donar.html"><i class="fas fa-people-carry" aria-hidden="true"></i> Donar</a>
           <a href="#"><i class="fas fa-hands-helping" aria-hidden="true"></i> Solicitar Donación</a>
           <a href="#"><i class="fas fa-warehouse" aria-hidden="true"></i> Depósito</a>
