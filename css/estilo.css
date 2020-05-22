@@ -197,7 +197,7 @@ header
 
 /*----------------------------Estilos BTN----------------------------*/
 
-.btn{
+.btns{
   border: 2px solid #05c46b;
   background: none;
   padding: 12px 90px;
@@ -216,7 +216,7 @@ header
 .btn3,.btn4:hover{
   color: #fff;
 }
-.btn::before{
+.btns::before{
   content: "";
   position: absolute;
   left: 0;
@@ -279,10 +279,6 @@ header
   width: 50%;
 }
 
-.container button
-{
-  margin-top: 30px;
-}
 
 /*-----------------------Estilos-CTN 2-----------------------*/
 
